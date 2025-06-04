@@ -1,0 +1,47 @@
+[
+  {
+    "scenario_name": "Heure de Pointe Nord-Sud",
+    "traffic_data": {
+      "x_A_direct": 150, "x_A_left": 30,
+      "x_B_direct": 20,  "x_B_left": 10,
+      "x_C_direct": 140, "x_C_left": 35,
+      "x_D_direct": 15,  "x_D_left": 8
+    }
+  },
+  {
+    "scenario_name": "Heure de Pointe Est-Ouest",
+    "traffic_data": {
+      "x_A_direct": 25,  "x_A_left": 12,
+      "x_B_direct": 130, "x_B_left": 40,
+      "x_C_direct": 20,  "x_C_left": 10,
+      "x_D_direct": 145, "x_D_left": 42
+    }
+  },
+  {
+    "scenario_name": "Nuit - Faible Trafic Global",
+    "traffic_data": {
+      "x_A_direct": 10, "x_A_left": 2,
+      "x_B_direct": 8,  "x_B_left": 1,
+      "x_C_direct": 12, "x_C_left": 3,
+      "x_D_direct": 7,  "x_D_left": 2
+    }
+  },
+  {
+    "scenario_name": "Virage à Gauche Nord-Sud prioritaire",
+    "traffic_data": {
+      "x_A_direct": 50, "x_A_left": 60,
+      "x_B_direct": 20, "x_B_left": 5,
+      "x_C_direct": 45, "x_C_left": 65,
+      "x_D_direct": 15, "x_D_left": 3
+    }
+  },
+  {
+    "scenario_name": "Mixte équilibré",
+    "traffic_data": {
+      "x_A_direct": 60, "x_A_left": 20,
+      "x_B_direct": 55, "x_B_left": 18,
+      "x_C_direct": 62, "x_C_left": 22,
+      "x_D_direct": 58, "x_D_left": 19
+    }
+  }
+]
