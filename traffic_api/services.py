@@ -123,9 +123,9 @@ class TrafficLightController:
         })
 
         return {
-            "predicted_phase_id": predicted_phase_id,
-            "predicted_phase_description": phase_info["description"],
-            "recommended_duration_seconds": phase_info["default_duration"]
+            # "predicted_phase_id": predicted_phase_id,
+            "resultat_de_la_preiction": phase_info["description"],
+            "temps_du_feu": phase_info["default_duration"]
         }
 
 

@@ -18,7 +18,7 @@
     }
   },
   {
-    "scenario_name": "Nuit - Faible Trafic Global",
+    "scenario_name": "Nuit - Faible Trafic",
     "traffic_data": {
       "x_A_direct": 10, "x_A_left": 2,
       "x_B_direct": 8,  "x_B_left": 1,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "scenario_name": "Mixte équilibré",
+    "scenario_name": "Mixte equilibre",
     "traffic_data": {
       "x_A_direct": 60, "x_A_left": 20,
       "x_B_direct": 55, "x_B_left": 18,
