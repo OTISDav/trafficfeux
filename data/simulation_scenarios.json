@@ -29,10 +29,10 @@
   {
     "scenario_name": "Virage à Gauche Nord-Sud prioritaire",
     "traffic_data": {
-      "x_A_direct": 50, "x_A_left": 60,
-      "x_B_direct": 20, "x_B_left": 5,
-      "x_C_direct": 45, "x_C_left": 65,
-      "x_D_direct": 15, "x_D_left": 3
+      "x_A_direct": 50, "x_A_left": 140,
+      "x_B_direct": 20, "x_B_left": 100,
+      "x_C_direct": 45, "x_C_left": 200,
+      "x_D_direct": 15, "x_D_left": 90
     }
   },
   {
