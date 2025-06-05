@@ -24,7 +24,7 @@ class TrafficLightController:
 
         # --- Chargement du Modèle ML Entraîné ---
 
-        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        project_root = os.path.dirname(os.path.abspath(__file__))
         model_path = os.path.join(project_root, 'ml_model', 'traffic_light_model.pth')
 
         input_size = 8
