@@ -25,7 +25,7 @@ class TrafficLightController:
         # --- Chargement du Modèle ML Entraîné ---
 
         project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        model_path = os.path.join(project_root, 'traffic_light_ai_project/ml_model', 'traffic_light_model.pth')
+        model_path = os.path.join(project_root, 'ml_model', 'traffic_light_model.pth')
 
         input_size = 8
         num_phases = len(self.phase_definitions)
@@ -48,7 +48,7 @@ class TrafficLightController:
         self.current_scenario_index = 0
 
         # Chemin vers le fichier JSON des scénarios (à la racine du projet, dans le dossier data)
-        scenarios_file_path = os.path.join(project_root, 'traffic_light_ai_project/data', 'simulation_scenarios.json')
+        scenarios_file_path = os.path.join(project_root, 'data', 'simulation_scenarios.json')
         self._load_simulation_scenarios(scenarios_file_path)
 
     def _load_simulation_scenarios(self, file_path):
